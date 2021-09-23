@@ -110,6 +110,7 @@ div h2
 {
     font-family: 'Oswald', sans-serif;
     text-align: center;
+    margin-top: 30px;
 }
 
 /*Titre des 3 articles*/
@@ -153,6 +154,10 @@ div input
 section 
 {
     align-items:center;
+}
+
+.page-prec{
+    margin-bottom: 30px;
 }
 
 /* FOOTER */
