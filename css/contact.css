@@ -1,3 +1,7 @@
+/**/
+body{
+    font-family: 'Oswald', sans-serif;
+}
 
 
 /* HEADER */
@@ -6,6 +10,8 @@
     position: relative;
     background-image: url(../img/header.jpg);
     background-position: center;
+    padding-bottom: 10%;
+    
 }
 
 .filter{
@@ -98,112 +104,6 @@ div h3
     padding-top: 10px;
 }
 
-/*TITRE DERNIERS ARTICLES*/
-
-div h2
-{
-    font-family: 'Oswald', sans-serif;
-    text-align: center;
-}
-
-/*Titre des 3 articles*/
-div h3
-
-{
-    color:black;
-    font-weight: bold;
-    font-family: 'Courgette', cursive;
-
-}
-
-/*paragraphe des articles*/
-div p 
-
-{
-    font-family: 'Oswald', sans-serif;
-}
-
-/* ARTICLE PREC */
-div li 
-{
-    font-family: 'Oswald', sans-serif;
-}
-/*BOUTON ET BARRE*/
-
-label
-{
-    font-family: 'Courgette', cursive;
-}
-
-div button 
-{
-    font-family: 'Oswald', sans-serif;
-}
-
-div input 
-{
-    font-family: 'Oswald', sans-serif;
-}
-section 
-{
-    align-items:center;
-}
-
-/* FOOTER */
-
-footer{
-    display: flex;
-    justify-content: space-evenly;
-    background-color: black;
-    color: white;
-    padding: 70px 0px;
-}
-
-.column{
-    display: flex;
-    flex-direction: column;
-}
-
-.column a{
-    font-family: 'Oswald', sans-serif;
-}
-
-div 
-{
-    justify-content: space-around;
-    font-size: 15px;
-}
-
-div h3
-{
-    font-size: 20px;
-    font-weight: bold;
-
-}
-
-.input-group button{
-    color: white;
-    font-family: 'Oswald', sans-serif;
-}
-
-.icones-rs{
-    display: flex;
-    gap: 5px;
-}
-
-.icones-rs i{
-    text-align: center;
-    width: 30px;
-    background-color: white;
-    color: black;
-    padding: 5px;
-    border-radius: 10%;
-}
-
-.share{
-    padding-top: 10px;
-}
-
 hr div p
 {
     font-family: 'Courgette', cursive;
@@ -232,4 +132,29 @@ hr div p
 .column{
     display: flex;
     flex-direction: column;
+}
+
+/* MAPS */
+div iframe
+
+{
+    padding-right: 10%;
+}
+
+/*CONTACT*/
+div h2
+{
+    font-family: 'Courgette', cursive; 
+}
+
+div p 
+{
+    font-family: 'Oswald', sans-serif;
+    color: grey;
+}
+
+footer a 
+
+{
+    color: grey;
 }
