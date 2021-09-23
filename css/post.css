@@ -1,0 +1,182 @@
+/* HEADER */
+
+.header-container{
+    position: relative;
+    background-image: url(../img/articles/suzette/suzette-header.jpg);
+    background-position: center;
+}
+
+nav{
+    position: absolute;
+    background-color: black;
+    opacity: 70%;
+    border-bottom: 1px solid white;
+}
+
+.courgette{
+    font-family: 'Courgette', cursive;
+}
+
+.oswald{
+    font-family: 'Oswald', sans-serif;
+}
+
+.header-text img{
+    width: 70px;
+}
+
+.header-text{
+    position: relative;
+    text-align: center;
+    color: gray;
+    padding: 130px 0px 250px 0px;
+}
+
+.header-text img, .header-text h1, .header-text h2{
+    margin-bottom: 20px;
+}
+
+.header-text h1{
+    background-color: black;
+    color: white;
+    opacity: 70%;
+}
+
+.header-text h2{
+    margin-bottom: 150px;
+}
+
+
+/* ARTICLE CREPERIE */
+
+.article{
+    margin: 20px 130px 50px 130px;
+}
+
+.oswald{
+    font-family: 'Oswald', sans-serif;
+    color: gray;
+    font-weight: 300;
+}
+
+.container .column input{
+    width: 170px;
+    color: gray;
+} 
+
+.container .column button{
+    border: 1px solid black;
+    color: black;
+}
+
+.container hr{
+    width: 100%;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.lettrine:first-of-type:first-letter{
+    float: left; 
+    font-size: 4em;  
+    font-weight: 400;
+    line-height: 80%; 
+    margin:-.1em 0px;
+    padding-right: .1em;
+  }
+
+.auteur{
+    padding: 10px;
+}
+.auteur-img img{
+    width: 170px;
+}
+
+.commentaires{
+    padding-left: 200px;
+}
+
+.com-logo img{
+    width: 70px;
+}
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    padding: 70px 0px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.column a{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-weight: 200;
+}
+
+.input-group button{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.icones-rs{
+    display: flex;
+    gap: 5px;
+}
+
+.icones-rs i{
+    text-align: center;
+    width: 30px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 10%;
+}
+
+.share{
+    padding-top: 10px;
+}
+
+@media (max-width:570px){
+    footer{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer-respo{
+        padding: 20px;
+    }
+
+    .article{
+        padding: 0;
+        margin: 0;
+    }
+
+    .commentaires{
+        padding: 0;
+        margin: 0px;
+    }
+
+    .commentaires .row{
+        padding: 0;
+        width: 100%;
+    }
+    
+    .container .col-4{
+        width: 100%;
+    }
+
+    .auteur-img img{
+        width: 70px;
+    }
+
+    .auteur{
+        width: 100%;
+    }
+}
