@@ -1,0 +1,137 @@
+/**/
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/* HEADER */
+
+.header-container{
+    position: relative;
+    background-image: url(../img/team/team.jpg);
+    background-position: center;
+}
+
+.filter{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 70%;
+}
+nav{
+    position: absolute;
+}
+
+.header-container hr {
+    border-top: 1px solid white;
+}
+
+.courgette{
+    font-family: 'Courgette', cursive;
+}
+
+.oswald{
+    font-family: 'Oswald', sans-serif;
+}
+
+.header-text img{
+    width: 70px;
+}
+
+.header-text{
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 50px 0px 100px 0px;
+}
+
+.header-text img, .header-text h1, .header-text h2{
+    margin-bottom: 20px;
+}
+
+.header-text h2{
+    margin-bottom: 150px;
+}
+
+
+/* ANTOINE */
+
+.antoine{
+    display: flex;
+    margin: 20px 130px 50px 130px;
+}
+
+.profil{
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.profil img{
+    width: 290px;
+    float: left;
+    margin: 0px 20px 20px 0px;
+
+}
+
+.oswald{
+    font-family: 'Oswald', sans-serif;
+    color: gray;
+    font-weight: 300;
+}
+
+.antoine .column input{
+    width: 170px;
+    color: gray;
+} 
+
+.antoine .column button{
+    border: 1px solid black;
+    color: black;
+}
+
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    padding: 70px 0px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.column a{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-weight: 200;
+}
+
+.input-group button{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.icones-rs{
+    display: flex;
+    gap: 5px;
+}
+
+.icones-rs i{
+    text-align: center;
+    width: 30px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 10%;
+}
+
+.share{
+    padding-top: 10px;
+}
