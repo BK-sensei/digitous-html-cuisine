@@ -133,3 +133,28 @@ hr div p
     display: flex;
     flex-direction: column;
 }
+
+/* MAPS */
+div iframe
+
+{
+    padding-right: 10%;
+}
+
+/*CONTACT*/
+div h2
+{
+    font-family: 'Courgette', cursive; 
+}
+
+div p 
+{
+    font-family: 'Oswald', sans-serif;
+    color: grey;
+}
+
+footer a 
+
+{
+    color: grey;
+}
